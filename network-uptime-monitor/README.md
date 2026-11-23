@@ -35,7 +35,7 @@ with error handling at each step so one bad host never stops the run.
 ## Installation
 
 ```bash
-git clone https://github.com/<your-username>/network-uptime-monitor.git
+git clone https://github.com/hfwolf4-sys/CodingProject.git
 cd network-uptime-monitor
 
 # Optional but recommended: create a virtual environment
