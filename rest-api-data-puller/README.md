@@ -33,7 +33,7 @@ with logging, retries, and error handling at each step.
 
 ```bash
 git clone https://github.com/<your-username>/rest-api-data-puller.git
-cd rest-api-data-puller
+cd CodingProjects/rest-api-data-puller
 
 # Optional but recommended: create a virtual environment
 python -m venv venv
