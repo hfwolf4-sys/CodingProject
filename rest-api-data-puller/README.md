@@ -32,7 +32,7 @@ with logging, retries, and error handling at each step.
 ## Installation
 
 ```bash
-git clone https://github.com/<your-username>/rest-api-data-puller.git
+git clone https://github.com/hfwolf4-sys/CodingProject.git
 cd CodingProjects/rest-api-data-puller
 
 # Optional but recommended: create a virtual environment
