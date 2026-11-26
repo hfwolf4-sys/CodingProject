@@ -1,0 +1,13 @@
+timestamp,host,label,status,avg_response_ms,packets_sent,packets_received,packet_loss_pct,error
+2026-11-25 00:00:00,127.0.0.1,Local machine,Online,0.037,4,4,0.0,
+2026-11-25 00:00:00,192.168.1.1,Home router,Online,2.609,4,4,0.0,
+2026-11-25 00:00:00,8.8.8.8,Google Public DNS,Online,14.746,4,4,0.0,
+2026-11-25 00:00:00,1.1.1.1,Cloudflare DNS,Online,12.363,4,4,0.0,
+2026-11-25 00:00:00,github.com,GitHub,Online,18.87,4,4,0.0,
+2026-11-25 00:00:00,vpn.example.net,Office VPN gateway,Online,160.395,4,4,0.0,
+2026-11-25 00:00:00,10.255.255.1,Offline example,Offline,,4,0,100.0,Request timed out (no reply)
+2026-11-25 00:00:00,server.invalid,DNS failure example,Offline,,4,0,100.0,DNS lookup failed (host name could not be resolved)
+2026-11-25 00:05:00,127.0.0.1,Local machine,Online,0.045,4,4,0.0,
+2026-11-25 00:05:00,192.168.1.1,Home router,Online,2.825,4,4,0.0,
+2026-11-25 00:05:00,8.8.8.8,Google Public DNS,Online,15.337,4,4,0.0,
+2026-11-25 00:05:00,1.1.1.1,Cloudflare DNS,Online,11.162,4,4,0.0,

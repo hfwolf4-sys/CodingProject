@@ -1,0 +1,9 @@
+Host,Label,Status,Health,Health Notes,Uptime (%),Avg Response (ms),Min Response (ms),Max Response (ms),P95 Response (ms),Jitter (ms),Avg Packet Loss (%),Checks,Online Checks,First Check,Last Check,Last Error
+127.0.0.1,Local machine,Online,Healthy,Within all limits,100.0,0.04,0.01,0.19,0.05,0.01,0.52,288,288,2026-11-25 00:00:00,2026-11-25 23:55:00,
+192.168.1.1,Home router,Online,Degraded,Uptime 97.6%,97.57,2.53,0.03,16.57,3.1,0.4,2.6,288,281,2026-11-25 00:00:00,2026-11-25 23:55:00,
+8.8.8.8,Google Public DNS,Online,Healthy,Within all limits,100.0,14.07,7.65,55.84,15.48,1.24,0.52,288,288,2026-11-25 00:00:00,2026-11-25 23:55:00,
+1.1.1.1,Cloudflare DNS,Online,Healthy,Within all limits,100.0,11.11,6.65,49.84,12.3,1.25,0.52,288,288,2026-11-25 00:00:00,2026-11-25 23:55:00,
+github.com,GitHub,Online,Healthy,Within all limits,100.0,22.05,13.53,97.93,24.63,1.81,0.35,288,288,2026-11-25 00:00:00,2026-11-25 23:55:00,
+vpn.example.net,Office VPN gateway,Online,Degraded,Slow (187 ms avg),99.31,186.95,125.37,807.96,202.61,18.14,1.13,288,286,2026-11-25 00:00:00,2026-11-25 23:55:00,
+10.255.255.1,Offline example,Offline,Critical,Uptime 0.0% is below 90%,0.0,,,,,,100.0,288,0,2026-11-25 00:00:00,2026-11-25 23:55:00,Request timed out (no reply)
+server.invalid,DNS failure example,Offline,Critical,Uptime 0.0% is below 90%,0.0,,,,,,100.0,288,0,2026-11-25 00:00:00,2026-11-25 23:55:00,DNS lookup failed (host name could not be resolved)
